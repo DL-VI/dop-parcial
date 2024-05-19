@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(237, 244, 248);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ebebeb;
+    border-bottom: 2px groove;
+    box-shadow: 0 1px 0px 1px;
+}
+
+h2 {
+    padding-left: 60px;
+    text-align: center;
+}
+
+#logo {
+    width: 300px;
+    height: 100px;
+}
+
+.reloj-contenedor span{
+    padding-left: 22px;
+}
+
+.bandera-francia {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 140px;
+}
+
+.bandera-francia div {
+    flex: 1;
+}
+
+.azul {
+    background-color: blue;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top: solid;
+    border-right: solid;
+    box-shadow: 1px 1px 1px 0px;
+}
+
+.blanco {
+    background-color: white;
+    border-right: solid;
+    box-shadow: 1px 1px 1px 0px;
+}
+
+.rojo {
+    background-color: red;
+    box-shadow: 1px 1px 1px 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom: solid ;
+    border-right: solid ;
+}
+
+.reloj-contenedor {
+    max-width: 350px;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    font-size: larger;
+}
+
+
+nav {
+    width: 15%;
+    float: left;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+nav ul a {
+    margin: 0 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font: 16px Verdana;
+    display: block;
+    background-color: gainsboro;
+    box-shadow: 1px 0px 2px 1px;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    transition: backgraund 0.6s, margin-left 0.6s, margin-rigth 0.6s;
+}
+
+nav ul a:hover {
+    margin-left: 5px;
+    background: #008fff;
+}
+
+/* cuerpo */
+.caja {
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    min-height: 100vh;
+}
+
+h2 {
+    margin-top: 50px;
+    padding-left: 80px;
+    text-align: center;
+}
+
+#enunciado {
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.esconder {
+    display: none;
+}
+
+.visible {
+    height: 220px;
+    display: flex;
+    align-items: center;
+    background-color: snow;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+
+.deporte {
+    background-color: snow;
+    border: 2px solid;
+    border-radius: 15px;
+    position: relative;
+    width: 330px;
+    height: 70%;
+    margin: 25px;
+    box-shadow: 1px 1px 0px 1px black;
+    transition: all 0.5s ease;
+}
+
+.deporte:hover {
+    cursor: pointer;
+    background-color: gainsboro;
+}
+
+.deporte:active {
+    transform: scale(0.9);
+    /*hace que salte al dar clic */
+}
+
+.deporte img {
+    padding-left: 120px;
+}
+
+
+
+/* pie */
+.arriba {
+    position: fixed;
+    bottom: 50%;
+    right: 20px;
+}
+
+
+footer {
+    background-color: black;
+    height: 100px;
+    clear: both;
+}
+
+.pie {
+    padding-top: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: white;
+}
+
+span {
+    padding-top: 10px;
+    margin-right: 20px;
+}
+
+.redes div {
+    display: inline;
+    align-items: center;
+    margin-right: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #008fff;
+}
+
+.levantarse svg {
+    transition: transform 0.3s ease;
+}
+
+.levantarse:hover svg {
+    transform: translateY(-5px) scale(1.1);
+}

@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/deportes.css">
+    <title>Deportes</title>
+</head>
+
+<body>
+
+    <header>
+
+        <img src="imgs/simbolo.png" alt="Logo-JuegosOlimpicos" id="logo" />
+
+        <div class="bandera-francia">
+            <div class="azul"></div>
+            <div class="blanco">
+                <div class='reloj-contenedor'>
+                    <span>Los juegos inician en:</span>
+                    <br>
+                    <span id="hora">Reloj Digital</span>
+                </div>
+            </div>
+            <div class="rojo"></div>
+        </div>
+
+        <nav>
+            <ul>
+                <a href="index.html">Inicio</a>
+                <a href="sedes.html">Sedes</a>
+                <a href="calendario.html">Calendario</a>
+            </ul>
+        </nav>
+
+    </header>
+    
+    <h2>DEPORTES</h2>
+
+    <div class="caja">
+
+        <p id="enunciado">
+            La lista de deportes confirmados por el Comité Olímpico Internacional a fines de 2021 se definió después de analizar las sugerencias del comité francés, quien optó por una renovación del espectro deportivo, buscando hacerlo más juvenil y contemporáneo al añadir el break dance como disciplina, así como mantener la escalada deportiva y el surf. Sin embargo, ha sido polémica la decisión de excluir a disciplinas como karate y béisbol/sóftbol que se exhibieron   en los anteriores juegos olímpicos.
+        </p>
+
+        <div class="deporte">
+            <img src="imgs/deportes/Athletics_pictogram.svg.png" onclick="mostrarDefinicion('definicion1')"
+                style="width:100px;height:100px;">
+            <div id="definicion1" class="esconder">
+                <p>
+                    El <strong>atletismo</strong> es un deporte que abarca diversas disciplinas individuales y de
+                    equipo, como correr, saltar y lanzar, enfocado en la velocidad, resistencia, fuerza y técnica
+                    atlética.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/35px-Badminton_pictogram.svg.png"
+                onclick="mostrarDefinicion('definicion2')" style="width:100px;height:100px;">
+            <div id="definicion2" class="esconder">
+                <p>
+                    El torneo de <strong>bádminton</strong> es un deporte de raqueta donde dos o cuatro jugadores
+                    golpean un volante sobre una red, buscando que caiga en el campo contrario, combinando velocidad y
+                    precisión.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/35px-Basketball_pictogram.svg.png"
+                onclick="mostrarDefinicion('definicion3')" style="width:100px;height:100px;">
+            <div id="definicion3" class="esconder">
+                <p>
+                    El <strong>baloncesto</strong> es un deporte de equipo donde dos conjuntos intentan anotar puntos
+                    lanzando un balón en un aro, combinando habilidad, estrategia y trabajo en equipo.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/Handball_pictogram.svg.png" onclick="mostrarDefinicion('definicion4')"
+                style="width:100px;height:100px;">
+            <div id="definicion4" class="esconder">
+                <p>
+                    El <strong>balonmano</strong> es un deporte de equipo en el que dos equipos compiten por marcar
+                    goles lanzando una pelota con las manos, mediante pases y tiros, en una cancha rectangular.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/Boxing_pictogram.svg.png" onclick="mostrarDefinicion('definicion5')"
+                style="width:100px;height:100px;">
+            <div id="definicion5" class="esconder">
+                <p>
+                    Los combates de <strong>boxeo</strong> es un deporte de combate donde dos contrincantes pelean
+                    utilizando únicamente sus puños dentro de un cuadrilátero reglamentado, buscando derrotar al
+                    oponente por nocaut o puntos.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/35px-Breakdancing_pictogram.svg.png"
+                onclick="mostrarDefinicion('definicion6')" style="width:100px;height:100px;">
+            <div id="definicion6" class="esconder">
+                <p>
+                    Los eventos de <strong>Breakdance</strong> es un estilo de baile urbano que combina movimientos
+                    acrobáticos, de fuerza y ritmo, originado en la cultura hip-hop, con elementos de improvisación y
+                    expresión creativa.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/Cycling_(road)_pictogram.svg.png"
+                onclick="mostrarDefinicion('definicion7')" style="width:100px;height:100px;">
+            <div id="definicion7" class="esconder">
+                <p>
+                    El <strong>ciclismo</strong> es un deporte que implica montar en bicicleta, compitiendo en
+                    diferentes modalidades como ruta, pista, montaña o BMX, promoviendo la resistencia y la velocidad.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/Equestrian_pictogram.svg.png" onclick="mostrarDefinicion('definicion8')"
+                style="width:100px;height:100px;">
+            <div id="definicion8" class="esconder">
+                <p>
+                    La <strong>equitación</strong> es un deporte que consiste en montar a caballo y realizar diversas
+                    actividades como salto de obstáculos, doma clásica y paseos recreativos, demostrando habilidad y
+                    conexión con el animal.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/Climbing_pictogram.svg.png" onclick="mostrarDefinicion('definicion9')"
+                style="width:100px;height:100px;">
+            <div id="definicion9" class="esconder">
+                <p>
+                    La <strong>escala</strong> deportiva es una herramienta que clasifica los deportes según su nivel de
+                    dificultad, técnica o exigencia física, facilitando su aprendizaje y desarrollo progresivo para los
+                    practicantes.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/Fencing_pictogram.svg.png" onclick="mostrarDefinicion('definicion10')"
+                style="width:100px;height:100px;">
+            <div id="definicion10" class="esconder">
+                <p>
+                    La <strong>esgrima</strong> es un deporte de combate en el que dos competidores se enfrentan
+                    utilizando armas blancas (espada, florete o sable) con el objetivo de tocar al oponente sin ser
+                    tocado.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/Football_pictogram.svg.png" onclick="mostrarDefinicion('definicion11')"
+                style="width:100px;height:100px;">
+            <div id="definicion11" class="esconder">
+                <p>
+                    El <strong>fútbol</strong> es un deporte de equipo donde dos conjuntos compiten por marcar goles en
+                    la portería contraria, utilizando principalmente los pies para controlar y pasar el balón.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/Gymnastics_(artistic)_pictogram.svg.png"
+                onclick="mostrarDefinicion('definicion12')" style="width:100px;height:100px;">
+            <div id="definicion12" class="esconder">
+                <p>
+                    La <strong>gimnasia</strong> es un deporte que combina fuerza, flexibilidad, equilibrio,
+                    coordinación y gracia en rutinas de ejercicios, realizadas en aparatos como la barra, el suelo o la
+                    viga.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/Golf_pictogram.svg.png" onclick="mostrarDefinicion('definicion13')"
+                style="width:100px;height:100px;">
+            <div id="definicion13" class="esconder">
+                <p>
+                    El <strong>golf</strong> es un deporte que consiste en golpear una pequeña pelota con un palo hacia
+                    un hoyo en el menor número de golpes posibles en un campo diseñado para ello.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/Field_hockey_pictogram.svg.png"
+                onclick="mostrarDefinicion('definicion14')" style="width:100px;height:100px;">
+            <div id="definicion14" class="esconder">
+                <p>
+                    El <strong>hockey</strong> es un deporte de equipo donde dos conjuntos compiten por marcar goles
+                    utilizando palos para golpear una pelota o disco en una cancha de hielo, césped o pista.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/35px-Judo_pictogram.svg.png" onclick="mostrarDefinicion('definicion15')"
+                style="width:100px;height:100px;">
+            <div id="definicion15" class="esconder">
+                <p>
+                    El <strong>judo</strong> es un arte marcial y deporte de combate en el que los competidores utilizan
+                    técnicas de lanzamiento, sumisión y control para derrotar a sus oponentes en el tatami.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/Weightlifting_pictogram.svg.png"
+                onclick="mostrarDefinicion('definicion16')" style="width:100px;height:100px;">
+            <div id="definicion16" class="esconder">
+                <p>
+                    La <strong>halterofilia</strong> es un deporte que implica levantar pesas en dos movimientos
+                    principales: el arranque y el envión, demostrando fuerza, técnica y control en el levantamiento de
+                    pesos.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/35px-Wrestling_pictogram.svg.png"
+                onclick="mostrarDefinicion('definicion17')" style="width:100px;height:100px;">
+            <div id="definicion17" class="esconder">
+                <p>
+                    La <strong>lucha</strong> es un deporte de combate cuerpo a cuerpo donde dos competidores intentan
+                    derrotar al oponente mediante técnicas de derribo, control y sumisión, en un tatami o área de
+                    combate.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/Swimming_pictogram.svg.png" onclick="mostrarDefinicion('definicion18')"
+                style="width:100px;height:100px;">
+            <div id="definicion18" class="esconder">
+                <p>
+                    La <strong>natación</strong> es un deporte acuático que consiste en desplazarse a través del agua
+                    utilizando diferentes técnicas de propulsión, como la braza, el crol, la espalda y la mariposa.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/35px-Synchronized_swimming_pictogram.svg.png"
+                onclick="mostrarDefinicion('definicion19')" style="width:100px;height:100px;">
+            <div id="definicion19" class="esconder">
+                <p>
+                    La <strong>natación sincronizada</strong> es un deporte acuático que combina natación, danza y
+                    gimnasia, donde un equipo realiza rutinas coreografiadas sincronizadamente en el agua, con música y
+                    precisión técnica.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/Modern_pentathlon_pictogram.svg.png"
+                onclick="mostrarDefinicion('definicion20')" style="width:100px;height:100px;">
+            <div id="definicion20" class="esconder">
+                <p>
+                    El <strong>pentatlón moderno</strong> es un deporte que combina cinco disciplinas: esgrima,
+                    natación, equitación, tiro y carrera a pie, desafiando la habilidad atlética y la resistencia mental
+                    de los competidores.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/Canoeing_(flatwater)_pictogram.svg.png"
+                onclick="mostrarDefinicion('definicion21')" style="width:100px;height:100px;">
+            <div id="definicion21" class="esconder">
+                <p>
+                    El <strong>piragüismo</strong> es un deporte acuático que involucra remar en una embarcación
+                    pequeña, como una canoa o kayak, compitiendo en diferentes modalidades en aguas tranquilas o
+                    agitadas.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/35px-Rowing_pictogram.svg.png" onclick="mostrarDefinicion('definicion22')"
+                style="width:100px;height:100px;">
+            <div id="definicion22" class="esconder">
+                <p>
+                    El <strong>remo</strong> es un deporte acuático en el que los competidores utilizan remos para
+                    propulsar una embarcación a lo largo de un curso de agua, compitiendo en diferentes distancias y
+                    modalidades.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/Rugby_union_pictogram.svg.png" onclick="mostrarDefinicion('definicion23')"
+                style="width:100px;height:100px;">
+            <div id="definicion23" class="esconder">
+                <p>El <strong>rugby 7</strong> es una variante del rugby union donde dos equipos de siete jugadores
+                    compiten en partidos más cortos, con reglas modificadas y un enfoque en la velocidad, el espacio y
+                    la habilidad individual.</p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/35px-Diving_pictogram.svg.png" onclick="mostrarDefinicion('definicion24')"
+                style="width:100px;height:100px;">
+            <div id="definicion24" class="esconder">
+                <p>
+                    Los <strong>saltos de natación</strong> son parte integral de las competencias acuáticas. Incluyen
+                    clavados desde plataformas elevadas y trampolines, con diferentes grados de dificultad y estilo. Los
+                    saltos requieren técnica, precisión y gracia en el aire y el agua.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/Skateboarding_pictogram.svg.png"
+                onclick="mostrarDefinicion('definicion25')" style="width:100px;height:100px;">
+            <div id="definicion25" class="esconder">
+                <p>
+                    El <strong>skateboard</strong> es un deporte urbano que implica montar sobre una tabla con ruedas y
+                    realizar trucos y maniobras en superficies como calles, rampas o parques especializados, combinando
+                    habilidad y creatividad.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/Surfing_pictogram.svg.png" onclick="mostrarDefinicion('definicion26')"
+                style="width:100px;height:100px;">
+            <div id="definicion26" class="esconder">
+                <p>
+                    El <strong>surf</strong> es un deporte acuático en el que una persona se desliza sobre las olas del
+                    mar utilizando una tabla especial, combinando equilibrio, habilidad y técnica para realizar
+                    maniobras y mantenerse en la ola.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/Taekwondo_pictogram.svg.png" onclick="mostrarDefinicion('definicion27')"
+                style="width:100px;height:100px;">
+            <div id="definicion27" class="esconder">
+                <p>
+                    El <strong>taekwondo</strong> es un arte marcial de origen coreano que se centra en técnicas de patadas
+                    y golpes con las manos, enfocándose en la defensa personal, la disciplina mental y el desarrollo físico y espiritual.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/Tennis_pictogram.svg.webp" onclick="mostrarDefinicion('definicion28')"
+                style="width:100px;height:100px;">
+            <div id="definicion28" class="esconder">
+                <p>
+                    El <strong>tenis</strong> es un deporte de raqueta donde dos jugadores o parejas compiten golpeando
+                    una pelota sobre una red, utilizando raquetas, en una cancha rectangular, buscando ganar puntos y
+                    juegos.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/Table_tennis_pictogram.svg.png"
+                onclick="mostrarDefinicion('definicion29')" style="width:100px;height:100px;">
+            <div id="definicion29" class="esconder">
+                <p>
+                    El <strong>tenis de mesa</strong>, también conocido como ping-pong, es un deporte de raqueta donde
+                    dos jugadores o parejas compiten golpeando una pequeña pelota sobre una mesa dividida por una red,
+                    utilizando raquetas especiales, buscando ganar puntos y juegos.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/35px-Shooting_pictogram.svg.png"
+                onclick="mostrarDefinicion('definicion30')" style="width:100px;height:100px;">
+            <div id="definicion30" class="esconder">
+                <p>
+                    El <strong>tiro</strong> es un deporte en el que los competidores disparan armas de fuego o arcos
+                    hacia blancos específicos, demostrando precisión, concentración y control en cada disparo.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/Archery_pictogram.svg.png" onclick="mostrarDefinicion('definicion31')"
+                style="width:100px;height:100px;">
+            <div id="definicion31" class="esconder">
+                <p>
+                    El <strong>tiro con arco</strong> es un deporte en el que los competidores disparan flechas desde un
+                    arco hacia blancos situados a cierta distancia, demostrando precisión, concentración y control en
+                    cada tiro.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/Triathlon_pictogram.svg.png" onclick="mostrarDefinicion('definicion32')"
+                style="width:100px;height:100px;">
+            <div id="definicion32" class="esconder">
+                <p>
+                    El <strong>triatlón</strong> es una competición de resistencia que combina tres disciplinas:
+                    natación, ciclismo y carrera a pie, en ese orden, desafiando la resistencia, la fuerza y la
+                    resistencia mental de los participantes.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/35px-Sailing_pictogram.svg.png"
+                onclick="mostrarDefinicion('definicion33')" style="width:100px;height:100px;">
+            <div id="definicion33" class="esconder">
+                <p>
+                    La <strong>vela</strong> es un deporte acuático en el que los competidores utilizan veleros para
+                    navegar en el agua, aprovechando el viento para propulsarse y maniobrar en regatas o travesías,
+                    demostrando habilidad y destreza náutica.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/Volleyball_(indoor)_pictogram.svg.png"
+                onclick="mostrarDefinicion('definicion34')" style="width:100px;height:100px;">
+            <div id="definicion34" class="esconder">
+                <p>
+                    El <strong>voleibol</strong> es un deporte de equipo donde dos conjuntos compiten por pasar un balón
+                    sobre una red, utilizando principalmente las manos, buscando que el balón toque el suelo del campo
+                    contrario.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/Volleyball_(beach)_pictogram.svg.png"
+                onclick="mostrarDefinicion('definicion35')" style="width:100px;height:100px;">
+            <div id="definicion35" class="esconder">
+                <p>
+                    El <strong>voleibol playa</strong> es una variante del voleibol que se juega en arena, con equipos
+                    de dos jugadores en lugar de seis. Se caracteriza por su dinamismo, velocidad y la importancia del
+                    juego estratégico.
+                </p>
+            </div>
+        </div>
+        <div class="deporte">
+            <img  src="imgs/deportes/Water_polo_pictogram.svg.png" onclick="mostrarDefinicion('definicion36')"
+                style="width:100px;height:100px;">
+            <div id="definicion36" class="esconder">
+                <p>
+                    El <strong>waterpolo</strong> es un deporte acuático de equipo donde dos conjuntos compiten por
+                    marcar goles en una portería, utilizando técnicas de natación y habilidades de lanzamiento, en una
+                    piscina con profundidad.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="arriba">
+        <svg id="btnArriba" xmlns="http://www.w3.org/2000/svg" width="50" height="50" cursor="pointer"
+            fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+            <path
+                d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z" />
+        </svg>
+    </div>
+
+
+    <footer>
+        <div class="pie">
+            <span>Síguenos en: </span>
+
+            <div class="redes">
+
+                <div class="levantarse">
+                    <a href="https://www.facebook.com/Paris2024" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="40" height="40" cursor="pointer" fill="currentColor" class="bi bi-facebook"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                        </svg></a>
+                </div>
+
+                <div class="levantarse">
+                    <a href="https://x.com/Paris2024" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="40"
+                            height="40" cursor="pointer" fill="currentColor" class="bi bi-twitter-x"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                        </svg></a>
+                </div>
+
+                <div class="levantarse">
+                    <a href="https://www.instagram.com/paris2024" target="_blank"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="40" height="40" cursor="pointer"
+                            fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                        </svg></a>
+                </div>
+
+                <div class="levantarse">
+                    <a href="https://www.youtube.com/channel/UCg4W1uf-i5X1nVaeWJsKuyA/videos" target="_blank"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="40" height="40" cursor="pointer"
+                            fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                            <path
+                                d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z" />
+                        </svg></a>
+                </div>
+
+                <div class="levantarse">
+                    <a href="https://www.tiktok.com/@paris2024officiel?is_copy_url=1&is_from_webapp=v1"
+                        target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" cursor="pointer"
+                            fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+                            <path
+                                d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z" />
+                        </svg></a>
+                </div>
+
+                <div class="levantarse">
+                    <a href="https://www.linkedin.com/company/paris-2024-olympic-and-paralympic-games-bid"
+                        target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" cursor="pointer"
+                            fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                        </svg></a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="js/deportes.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>

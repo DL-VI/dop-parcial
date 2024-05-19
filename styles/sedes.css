@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(237, 244, 248);
+}
+
+h2 {
+    margin-top: 50px;
+    padding-left: 60px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ebebeb;
+    border-bottom: 2px groove;
+    box-shadow: 0 1px 0px 1px;
+}
+
+#logo {
+    width: 300px;
+    height: 100px;
+}
+
+.reloj-contenedor span{
+    padding-left: 22px;
+}
+
+.bandera-francia {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 140px;
+}
+
+.bandera-francia div {
+    flex: 1;
+}
+
+.azul {
+    background-color: blue;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top: solid;
+    border-right: solid;
+    box-shadow: 1px 1px 1px 0px;
+}
+
+.blanco {
+    background-color: white;
+    border-right: solid;
+    box-shadow: 1px 1px 1px 0px;
+}
+
+.rojo {
+    background-color: red;
+    box-shadow: 1px 1px 1px 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom: solid ;
+    border-right: solid ;
+}
+
+.reloj-contenedor {
+    max-width: 350px;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    font-size: larger;
+}
+
+nav {
+    width: 15%;
+    float: left;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+nav ul a {
+    margin: 0 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font: 16px Verdana;
+    display: block;
+    background-color: gainsboro;
+    box-shadow: 1px 0px 2px 1px;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    transition: backgraund 0.6s, margin-left 0.6s, margin-rigth 0.6s;
+}
+
+nav ul a:hover {
+    margin-left: 5px;
+    background: #008fff;
+}
+
+/* cuerpo */
+.caja {
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+table {
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0 2px 3px 2px;
+    width: 1000px;
+}
+
+table tr:hover {
+    background-color: #e9edf0;
+}
+
+.informacion-previa {
+    border: inset black;
+    position: absolute;
+    visibility: hidden;
+    width: 300px;
+    background-color: #dedbdb;
+    color: black;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 0;
+
+}
+
+.vista-previa:hover .informacion-previa {
+    visibility: visible;
+}
+
+
+.informacion-previa img {
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid;
+}
+
+
+/* pie */
+.arriba {
+    position: fixed;
+    bottom: 50%;
+    right: 20px;
+}
+
+
+footer {
+    background-color: black;
+    height: 100px;
+    clear: both;
+    width: 100%;
+}
+
+.pie {
+    padding-top: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: white;
+}
+
+span {
+    padding-top: 10px;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #008fff;
+}
+
+.redes div {
+    display: inline;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.levantarse svg {
+    transition: transform 0.3s ease;
+}
+
+.levantarse:hover svg {
+    transform: translateY(-5px) scale(1.1);
+}
